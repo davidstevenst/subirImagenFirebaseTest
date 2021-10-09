@@ -1,0 +1,17 @@
+{
+  "hosting": { 
+    "target": "pruebaSubirImagen",
+    "public": "dist/pruebaSubirImagen",
+    "ignore": [
+
+      "**/.*"
+
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

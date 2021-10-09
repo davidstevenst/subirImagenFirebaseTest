@@ -1,0 +1,13 @@
+Seleccione una imagen <br>
+<input type="file" class="file" (change)="preparasubida($event)">
+<br>
+<button (click)="upload()" *ngIf="porcentaje == 0">Subir</button>
+<br>
+
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" [ngStyle]="{width: porcentaje + '%'}">
+
+
+    </div>
+</div>

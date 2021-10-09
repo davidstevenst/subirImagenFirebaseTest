@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "loginangular1": {
+      "hosting": {
+        "pruebaSubirImagen": [
+          "loginangular1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "loginangular1"
+  }
+}
